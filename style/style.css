@@ -1,0 +1,115 @@
+
+.nav-header{
+   background-image: url(../images/#hero-cover.3.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 90vh;
+   width: 100vw;    
+}
+.nav-contain{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+  
+}
+
+li{
+    list-style: none;
+}
+.nav-container{
+  
+    display: flex;
+}
+.NAV-list{
+    display: flex;
+
+}
+
+li a{
+    color: black;
+    margin-left: 50px;
+
+    text-decoration: none;
+}
+.nav-div{
+    margin-right: 40px;
+}
+.nav-a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    background-color: #23a6f0;
+    color: white;
+    border: none;
+    height: 38px;
+    width: 115px;
+     border-radius: 10px;
+}
+.header-h-one{
+
+    margin-left: 750px;
+    font-size: 56px;
+}
+.button{
+    
+   justify-content: center;
+   margin-top: 50px;
+}
+.btn-one{
+    border-radius: 20px;
+    background-color: #23a6f0;
+    color: white;
+    height: 38px;
+    width: 115px;
+    border: none;
+    margin-left: 850px;
+}
+.btn-two{
+    border-radius: 20px;
+    background-color: transparent;
+    color: black;
+    height: 38px;
+    width: 115px;
+    border: none;
+    margin-right: 800px;
+} 
+@media screen and (max-width:575px) {
+    .nav-contain{
+        display: block;
+    }
+    .nav-container{
+        display: block;
+    }
+    .nav-div{
+        margin-right: 800px;
+    }
+    .NAV-list{
+        margin: left -15px;
+        display: block
+        
+    }
+       
+        
+    
+    .display{
+      margin: auto;
+       
+    }
+    .button{
+        margin-top: 40px;
+       
+        
+        justify-content: left;
+    }
+    .header-h-one{
+        margin-left: 10px;
+
+    
+    }
+    .btn-one{
+        margin-left: 10px;
+    }
+    
+} 
