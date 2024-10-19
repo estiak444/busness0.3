@@ -1,6 +1,6 @@
 
 .nav-header{
-   background-image: url(../images/#hero-cover.3.jpg);
+   background-image: url(../images/hero-cover.3.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -113,3 +113,25 @@ li a{
     }
     
 } 
+.second-contain{
+    margin-top: 200px;
+}
+.second-container{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.third-contain{
+    color: #fafafa;
+    margin-top: 100px;
+}
+.third-container-box{
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 300px;
+    padding: 18px;
+
+}
+.logo-contain{
+    margin-top: 100px;
+}
