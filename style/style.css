@@ -75,7 +75,66 @@ li a{
     border: none;
     margin-right: 800px;
 } 
+.header-image{
+    display: flex; justify-content:space-around ; margin-top: 200px;
+}
+    
+
+.second-contain{
+    margin-top: 200px;
+}
+.second-container{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.third-contain{
+    color: #fafafa;
+    margin-top: 100px;
+}
+.third-contain-image{
+    display: flex;
+    justify-content: space-around;
+}
+.third-container-box{
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 300px;
+    padding: 18px;
+
+}
+.logo-contain{
+    margin-top: 100px;
+}
+.main-logo{
+    text-align: center; display: flex; justify-content: space-around;
+}
+.fifth-contain{
+    background-color: #252b42; height: 600px;
+}
+.fifth-container{
+    display: flex; justify-content: space-around; 
+}
+.fifth-container-div{
+    display: flex; justify-content: center;
+}
+.footer-contain{
+    margin-top: 500px;
+}
+.footer-boddy{
+    display: flex;justify-content: space-around; margin-top: 40px;
+}
+.footer-logo{
+    display: flex;
+}
+.footer-last{
+    display: flex; justify-content: space-around;
+}
 @media screen and (max-width:575px) {
+    .nav-header{
+        background-color: white;
+        background-image: none;
+    }
     .nav-contain{
         display: block;
     }
@@ -111,27 +170,43 @@ li a{
     .btn-one{
         margin-left: 10px;
     }
-    
-} 
-.second-contain{
-    margin-top: 200px;
-}
-.second-container{
-    
-    display: flex;
-    justify-content: space-around;
-}
-.third-contain{
-    color: #fafafa;
-    margin-top: 100px;
-}
-.third-container-box{
-    text-align: center;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    width: 300px;
-    padding: 18px;
-
-}
-.logo-contain{
-    margin-top: 100px;
-}
+    .second-container{
+        display: block;
+        margin-top: 800px;
+    }
+    .header-image{
+        display: block;
+    }
+    .third-container-box{
+        display: block;
+    }
+    .third-contain-image{
+        display: block;
+        text-align: center;
+    }
+    .main-logo{
+        display: block;
+        text-align: center;
+        height: 300px;
+        grid-column: span;
+    }
+    .fifth-container{
+        display: block;
+    }
+    .fifth-container-div{
+        display: block;
+    }
+    .footer-contain{
+        margin-top: 1200px;
+    }
+    .footer-boddy{
+        display: block;
+        text-align: center;
+    }
+    .footer-logo{
+        margin-left: 200px;
+    }
+    .footer-last{
+        display: block;
+    }
+ }
